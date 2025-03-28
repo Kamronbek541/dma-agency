@@ -1,0 +1,52 @@
+/* PHONES */
+
+@media only screen and (max-width: 600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header_item{
+        display: none;
+    }
+    .frosted-glass{
+        width: 65%;
+    }
+
+
+    .nav-links a img{
+        height: 69px;
+    }
+
+    .about_us_1 h1{
+        margin-top: 90px;
+        font-size: 48px;
+    }
+
+    .about_us_1 p{
+        font-size: 20px;
+        width: 240px;
+    }
+    .about_us_1 h4{
+        font-size: 15px;
+        width: 230px;
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+    
+
+
+    .icon{
+        width: 120px;
+        height: 120px;
+    }
+
+    .icon h1{
+        font-size: 25px;
+    }
+    .icon p{
+        font-size: 20px;
+    }
+
+}
