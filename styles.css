@@ -233,6 +233,7 @@ html {
     margin-bottom: 90px;
 }
 .benefit{
+    
     padding: 0 5%;
     background-image: url('images/benefit_business.svg'); /* Adjust path as needed */
     background-size: cover;
