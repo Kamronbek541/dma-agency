@@ -429,6 +429,8 @@ footer {
     background-color: transparent;
     margin-bottom: 20px;
     font-weight: 600;
+    color: inherit; /* Ensures text color is consistent with parent */
+    font-family: inherit; 
 
 }
 .col2{

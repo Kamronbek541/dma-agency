@@ -194,6 +194,8 @@
     .col1 p{
         text-decoration: none;
         background-color: transparent;
+        color: inherit; /* Ensures text color is consistent with parent */
+        font-family: inherit; 
     }
     .col2 h1{
         font-size: 20px;
