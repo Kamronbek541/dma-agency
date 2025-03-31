@@ -191,6 +191,14 @@
         width: 100%;             /* Each column takes full width of the container */
         text-align: center;      /* Text and elements inside columns are centered */
     }
+    .col1 p{
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .col2 h1{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
     .col3{
         display: none;
     }
