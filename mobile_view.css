@@ -144,7 +144,7 @@
         text-align: center; 
     }
     .industries-icon img{
-        height: 80px;
+        height: 70px;
         background-color: transparent;
     }
     .industries-icon p{
@@ -153,5 +153,51 @@
         margin-top: 10px;
     
     }
+   
     
+
+
+    .contact{
+        padding: 0 0;
+        padding-top: 60px;
+    }
+    input, textarea{
+        width: 95%;
+    }
+    .image-section{
+        display: none;
+    }
+
+
+
+    footer {
+        background-color: transparent;
+        height: 390px;
+        background-image: url('images/image_footer.svg'); /* Adjust path as needed */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0 0%;
+    }
+    .footer-row1 {
+        display: flex;           /* Enables flexbox */
+        flex-direction: column;  /* Stacks children vertically */
+        align-items: center;     /* Centers children horizontally within the container */
+        background-color: transparent;
+        padding-top: 0px;
+    }
+    
+    .col1, .col2, .col3 {
+        margin-bottom: 40px;
+        width: 100%;             /* Each column takes full width of the container */
+        text-align: center;      /* Text and elements inside columns are centered */
+    }
+    .col3{
+        display: none;
+    }
+    .footer-row2{
+        display: none;
+    }
+    .col2_btn{
+        background: #C85904;
+    }
 }  
